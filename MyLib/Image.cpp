@@ -10,11 +10,11 @@ Image::Image(int _h, int _w)
     {
         arr[i] = arr[0] + i * w;
     }
-    for (int i = 1; i <=h; i++)
+    for (int i = 0; i <h; i++)
     {
-        for (int k = 1; k <= w; k++)
+        for (int k = 0; k < w; k++)
         {
-            Get_Pixel(i, k) = rand() %10 * 10;
+            Get_Pixel(i, k) = (k +rand() %10) * 10;
         }
     }
 }
