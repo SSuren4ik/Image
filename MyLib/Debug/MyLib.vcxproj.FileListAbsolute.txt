@@ -1,0 +1,2 @@
+C:\Users\simon\source\repos\University\Debug\MyLib.pdb
+C:\Users\simon\source\repos\University\MyLib\Debug\MyLib.pdb

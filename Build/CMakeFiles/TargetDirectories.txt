@@ -1,0 +1,6 @@
+C:/Users/simon/GitSource/Image/Build/CMakeFiles/ALL_BUILD.dir
+C:/Users/simon/GitSource/Image/Build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/simon/GitSource/Image/Build/MyLib/CMakeFiles/MyLib.dir
+C:/Users/simon/GitSource/Image/Build/Main/CMakeFiles/Main.dir
+C:/Users/simon/GitSource/Image/Build/gtest/CMakeFiles/gtest.dir
+C:/Users/simon/GitSource/Image/Build/test/CMakeFiles/test.dir
