@@ -27,6 +27,14 @@ void ImageAgr::Expansion()
 {
     img->Plus();
 }
+int ImageAgr::Get_Height_Agr()
+{
+    return img->Get_Height();
+}
+int ImageAgr::Get_Weight_Agr()
+{
+    return img->Get_Weight();
+}
 void ImageAgr::Agr_Print()
 {
     img->Print();

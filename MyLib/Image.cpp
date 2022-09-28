@@ -133,8 +133,6 @@ Image& Image:: operator =(const Image& image)
 }
 int& Image::Get_Pixel(int _h, int _w)
 {
-    _h--;
-    _w--;
     if (_w < 0 || _h < 0 || _w >= w || _h >= h)
     {
         throw 1;
