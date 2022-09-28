@@ -13,9 +13,9 @@ void ImageAgr::Write_Image(string filename)
     }
     fout << img->Get_Height() << endl;
     fout << img->Get_Weight() << endl;
-    for (int i = 1; i <= img->Get_Height(); i++)
+    for (int i = 0; i < img->Get_Height(); i++)
     {
-        for (int k = 1; k <= img->Get_Weight(); k++)
+        for (int k = 0; k < img->Get_Weight(); k++)
         {
             fout << img->Get_Pixel(i, k) << " ";
         }
@@ -26,6 +26,14 @@ void ImageAgr::Write_Image(string filename)
 void ImageAgr::Expansion()
 {
     img->Plus();
+}
+int ImageAgr::Get_Height_Agr()
+{
+    return img->Get_Height();
+}
+int ImageAgr::Get_Weight_Agr()
+{
+    return img->Get_Weight();
 }
 void ImageAgr::Agr_Print()
 {
@@ -48,9 +56,9 @@ void ImageAgr::Read_Image(string filename)
     fin >> _h;
     fin >> _w;
     img = new Image(_h, _w);
-    for (int i = 1; i <= _h; i++)
+    for (int i = 0; i < _h; i++)
     {
-        for (int k = 1; k<=_w; k++)
+        for (int k = 0; k<_w; k++)
         {
             fin >> img->Get_Pixel(i, k);
             cout << img->Get_Pixel(i, k) << " ";
